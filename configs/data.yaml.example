@@ -1,0 +1,13 @@
+# Ví dụ file cấu hình dữ liệu cho Ultralytics YOLO
+# Cập nhật các đường dẫn tuyệt đối hoặc tương đối phù hợp với máy của bạn
+
+path: ..  # gốc tính từ thư mục configs/
+train: ../data/processed/images  # hoặc data/train/images nếu tách riêng
+val: ../data/processed/images    # hoặc data/val/images
+
+# Nếu tách labels theo cấu trúc YOLOV5/8 mới:
+# train: ../data/train
+# val: ../data/val
+
+names:
+  0: vehicle_plate
